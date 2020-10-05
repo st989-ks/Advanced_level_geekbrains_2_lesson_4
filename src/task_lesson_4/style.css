@@ -1,0 +1,28 @@
+.root {
+    -fx-font-size: 16px;
+    /*-fx-background-color: blanchedalmond;*/
+    -fx-background-image: url("/image/1.png");
+
+}
+
+.button {
+    -fx-background-color: #6DA3EE;
+}
+.button:hover, #addbtn:hover {
+    -fx-background-color: #c2ff60;
+}
+
+.text-area {
+    -fx-background-color: #C3D7F2;
+    -fx-text-fill: #011149;
+    -fx-highlight-text-fill: #C3D7F2;
+    -fx-highlight-fill: #011149;
+    -fx-control-inner-background: #C3D7F2;
+
+}
+
+.textArea{
+    width: 90%;
+    height: 90%;
+}
+

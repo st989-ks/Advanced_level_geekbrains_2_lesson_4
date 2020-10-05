@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="TOP_CENTER" hgap="5.0" minHeight="-Infinity" prefHeight="700.0" prefWidth="600.0" stylesheets="@style.css" vgap="5.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+
+    <TextArea fx:id="textArea" editable="false" prefHeight="600" prefWidth="590" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1">
+      <opaqueInsets>
+         <Insets left="10.0" right="10.0" top="10.0" />
+      </opaqueInsets></TextArea>
+
+    <TextField fx:id="textField" onAction="#clickSend" promptText="input message" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <Button fx:id="btn1" contentDisplay="RIGHT" onAction="#clickSend" text="add Message" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+   <columnConstraints>
+       <ColumnConstraints maxWidth="5" minWidth="5" prefWidth="2.0" />
+       <ColumnConstraints maxWidth="500" minWidth="460" prefWidth="259.0" />
+      <ColumnConstraints maxWidth="500" minWidth="103.0" prefWidth="118.0" />
+      <ColumnConstraints maxWidth="5" minWidth="5" prefWidth="5.0" />
+   </columnConstraints>
+
+   <rowConstraints>
+      <RowConstraints maxHeight="5.0" minHeight="3.0" prefHeight="3.0" />
+   </rowConstraints>
+
+
+
+</GridPane>
